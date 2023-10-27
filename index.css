@@ -1,0 +1,23 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    color: aqua;
+}
+
+.container {
+    position: relative;
+    height: 100%;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+li.completed {
+    text-decoration: line-through;
+}
